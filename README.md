@@ -146,7 +146,7 @@ Due to the 15 character limit, it was impossible for us to use the cat command (
 \`< .\.\/flag.txt`
 which returned us a flag. 
 
-`
+
 
 ### Cereal and Milk
 
