@@ -12,7 +12,7 @@
   * [Eighth Circle](#eighth-circle)
 - [Web](#web)
   * [Homeward Bound](#homeward-bound)
-  * [$Echo](#$echo)
+  * [$Echo](#$Echo)
   * [Cereal and Milk](#cereal-and-milk)
   * [AgentTester](#agenttester)
   * [Asserted](#asserted)
