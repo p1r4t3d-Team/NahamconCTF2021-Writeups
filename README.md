@@ -133,7 +133,16 @@ Flag: `flag{f805593d933f5433f2a04f082f400d8c}`
 
 ### $Echo
 
+`So I just made a` ~~hardcoded~~ `bot that basically tells you what you wanna hear. Now usually it's a $ for each thing you want it to say but I'll waive the fee for you if you beta test it for me.`	
+$Echo was an easy web challenge that ended up at 50 points.
+	We are presented with a text box that takes input, and uses the `echo` program to return our input. After trying to find command injection, we see that the only allowed special characters are \` and <./
+There was also a 15 character limit on input. After some research, i found that commands inside backticks would be executed, and the response returned.
+\`ls\` gave us the `index.php`, and \`ls .\.\` returned a `flag.txt`
 
+Due to the 15 character limit, it was impossible for us to use the cat command (e.g. \`cat .\.\flag.txt`) so we had to find another way of reading the file. After research, i found that the < character could send input to stdout. This allowed the crafting of the final payload:
+
+\`< .\.\/flag.txt`
+which returned us a flag.
 
 
 
