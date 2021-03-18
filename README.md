@@ -68,6 +68,9 @@
 
 ## Scoreboard
 
+![](/images/nahamconscoreboard.png)
+
+We ended the CTF in 16th Place, which we were happy with as our first result as a team.
 
 
 ## Warmups
