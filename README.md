@@ -1,4 +1,7 @@
 # NahamCon_2021_CTF
+- [Scoreboard](#scoreboard)
+
+
 
 - [Warmups](#warmups)
   * [Veebee](#veebee)
@@ -60,6 +63,10 @@
   * [HTB Challenge - Weather App](#htb-challenge---weather-app)
   * [HTB Challenge - Weather App](#htb-challenge---weather-app-1)
 
+
+
+
+## Scoreboard
 
 
 
