@@ -151,7 +151,7 @@ $Echo was an easy web challenge that ended up at 50 points.
 There was also a 15 character limit on input. After some research, i found that commands inside backticks would be executed, and the response returned.
 \`ls\` gave us the `index.php`, and \`ls .\.\` returned a `flag.txt`
 
-Due to the 15 character limit, it was impossible for us to use the cat command (e.g. \`cat .\.\flag.txt`) so we had to find another way of reading the file. After research, i found that the < character could send input to stdout. This allowed the crafting of the final payload:
+Due to the 15 character limit, it was impossible for us to use the cat command (e.g. \`cat .\./flag.txt`) so we had to find another way of reading the file. After research, i found that the < character could send input to stdout. This allowed the crafting of the final payload:
 
 \`< .\.\/flag.txt`
 which returned us a flag. 
